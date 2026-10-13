@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VASTRADEV — Premium Everyday T-Shirts</title>
+<meta name="description" content="VASTRADEV makes premium, heavyweight cotton T-shirts with considered fits and quiet graphics. Designed to be worn on repeat.">
+<meta property="og:title" content="VASTRADEV — Premium Everyday T-Shirts">
+<meta property="og:description" content="Heavyweight cotton tees with considered fits and quiet graphics.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#f4efe7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23161412'/%3E%3Ctext x='32' y='42' font-size='28' text-anchor='middle' fill='%23f4efe7' font-family='Georgia' font-weight='700'%3EVD%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="announce" id="announce"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+    </button>
+    <a href="#top" class="logo" aria-label="VASTRADEV home">VASTRA<span>DEV</span></a>
+    <nav class="nav" id="nav" aria-label="Primary">
+      <a href="#shop">Shop</a>
+      <a href="#story">Our Story</a>
+      <a href="#fabric">Fabric &amp; Fit</a>
+      <a href="#sizing">Size Guide</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="cart-btn" id="cartBtn" aria-label="Open cart">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+      <span class="cart-count" id="cartCount">0</span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Autumn / Winter 2026</p>
+      <h1>The tee you reach for<br>every single day.</h1>
+      <p class="lead">Heavyweight combed cotton. A cut that actually drapes. Quiet graphics inspired by Indian craft. Made to be worn on repeat, not replaced.</p>
+      <div class="hero-cta">
+        <a href="#shop" class="btn btn-primary">Shop the collection</a>
+        <a href="#fabric" class="btn btn-ghost">Why our fabric</a>
+      </div>
+      <ul class="hero-points">
+        <li>240 GSM combed cotton</li>
+        <li>Pre-shrunk &amp; garment washed</li>
+        <li>Sizes XS – XXL</li>
+      </ul>
+    </div>
+    <div class="hero-art" id="heroArt" aria-hidden="true"></div>
+  </div>
+</section>
+
+<section class="strip">
+  <div class="wrap strip-grid">
+    <div><strong>Free shipping</strong><span>on orders above ₹999</span></div>
+    <div><strong>Easy exchanges</strong><span>within 7 days of delivery</span></div>
+    <div><strong>Secure ordering</strong><span>confirmed personally by our team</span></div>
+    <div><strong>Small batches</strong><span>cut and stitched in limited runs</span></div>
+  </div>
+</section>
+
+<section class="section" id="shop">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">The collection</p>
+        <h2>Everyday essentials</h2>
+      </div>
+      <div class="controls">
+        <div class="filters" id="filters" role="group" aria-label="Filter products"></div>
+        <label class="sort">
+          <span class="sr">Sort</span>
+          <select id="sort">
+            <option value="featured">Featured</option>
+            <option value="low">Price: low to high</option>
+            <option value="high">Price: high to low</option>
+          </select>
+        </label>
+      </div>
+    </div>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+<section class="section story" id="story">
+  <div class="wrap story-grid">
+    <div class="story-art" id="storyArt" aria-hidden="true"></div>
+    <div>
+      <p class="eyebrow">Our story</p>
+      <h2>Vastra means clothing. Dev means craft of making.</h2>
+      <p>VASTRADEV started with a simple frustration: most T-shirts are either thin and disposable, or expensive for the label alone. We wanted a tee that feels substantial, fits properly and keeps its shape after a hundred washes.</p>
+      <p>So we focus on a short list of things done well: the weight of the cotton, the cut of the shoulder, the finish of the collar, and graphics that are printed to last rather than to shout.</p>
+      <div class="stats">
+        <div><b>240</b><span>GSM fabric</span></div>
+        <div><b>100%</b><span>combed cotton</span></div>
+        <div><b>6</b><span>wash-tested fits</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="fabric">
+  <div class="wrap">
+    <div class="section-head single">
+      <div>
+        <p class="eyebrow">Fabric &amp; fit</p>
+        <h2>Built around the details</h2>
+      </div>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <div class="card-icon">01</div>
+        <h3>Heavyweight combed cotton</h3>
+        <p>Combing removes short fibres, so the yarn is smoother, stronger and softer. At 240 GSM the tee hangs cleanly instead of clinging.</p>
+      </article>
+      <article class="card">
+        <div class="card-icon">02</div>
+        <h3>Pre-shrunk, garment washed</h3>
+        <p>Every piece is washed before it reaches you, which softens the hand-feel and keeps shrinkage to a minimum.</p>
+      </article>
+      <article class="card">
+        <div class="card-icon">03</div>
+        <h3>Reinforced collar &amp; seams</h3>
+        <p>A ribbed, double-stitched collar and taped shoulder seams help the neckline hold its shape over time.</p>
+      </article>
+      <article class="card">
+        <div class="card-icon">04</div>
+        <h3>Soft-hand screen prints</h3>
+        <p>Water-based inks sit into the fabric instead of on top of it, so graphics stay flexible and don't crack.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section sizing" id="sizing">
+  <div class="wrap">
+    <div class="section-head single">
+      <div>
+        <p class="eyebrow">Size guide</p>
+        <h2>Find your fit</h2>
+      </div>
+      <div class="seg" role="group" aria-label="Units">
+        <button class="seg-btn active" data-unit="in">Inches</button>
+        <button class="seg-btn" data-unit="cm">cm</button>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table id="sizeTable">
+        <thead><tr><th>Size</th><th>Chest</th><th>Length</th><th>Shoulder</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="note">Garment measurements, laid flat and doubled for chest. Our tees are cut in a relaxed fit. Between sizes? Size down for a closer fit, up for an oversized look.</p>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="wrap faq-grid">
+    <div>
+      <p class="eyebrow">Questions</p>
+      <h2>Good to know</h2>
+    </div>
+    <div class="faq">
+      <details open><summary>How do I place an order?</summary><p>Add your pieces to the cart, choose "Place order", and send us the pre-filled order message. Our team confirms availability, shipping and payment details with you directly.</p></details>
+      <details><summary>How long does delivery take?</summary><p>Orders usually ship within 2 to 3 working days and arrive in 4 to 7 working days across India, depending on your location.</p></details>
+      <details><summary>What is your exchange policy?</summary><p>If the size isn't right, message us within 7 days of delivery and we'll arrange an exchange. Items must be unworn, unwashed and with tags attached.</p></details>
+      <details><summary>How should I wash my tee?</summary><p>Machine wash cold with similar colours, inside out. Do not bleach. Tumble dry low or line dry in shade to protect the print.</p></details>
+      <details><summary>Do you ship outside India?</summary><p>Not yet. International shipping is something we're working on. Write to us and we'll let you know when it opens.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="wrap contact-box">
+    <div>
+      <p class="eyebrow light">Contact</p>
+      <h2>Talk to a real person</h2>
+      <p>Questions about sizing, bulk orders or custom prints for your team? We reply within one working day.</p>
+    </div>
+    <div class="contact-actions">
+      <a class="btn btn-light" id="mailLink" href="#">Email us</a>
+      <a class="btn btn-outline-light" id="waLink" href="#" target="_blank" rel="noopener">Chat on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div>
+      <a href="#top" class="logo">VASTRA<span>DEV</span></a>
+      <p class="muted">Premium everyday T-shirts, designed in India.</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="#shop">Shop</a>
+      <a href="#story">Our Story</a>
+      <a href="#sizing">Size Guide</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <p class="muted small">© <span id="year"></span> VASTRADEV. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Product modal -->
+<div class="overlay" id="overlay" hidden></div>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle" hidden>
+  <button class="icon-btn modal-close" id="modalClose" aria-label="Close">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <div class="modal-grid">
+    <div class="modal-art" id="mArt"></div>
+    <div class="modal-info">
+      <p class="eyebrow" id="mCat"></p>
+      <h3 id="mTitle"></h3>
+      <p class="price" id="mPrice"></p>
+      <p id="mDesc" class="desc"></p>
+      <div class="field">
+        <span class="label">Colour: <b id="mColorName"></b></span>
+        <div class="swatches" id="mSwatches"></div>
+      </div>
+      <div class="field">
+        <span class="label">Size <a href="#sizing" id="mSizeLink">Size guide</a></span>
+        <div class="sizes" id="mSizes"></div>
+        <p class="error" id="mError" role="alert"></p>
+      </div>
+      <button class="btn btn-primary full" id="mAdd">Add to cart</button>
+      <ul class="spec" id="mSpec"></ul>
+    </div>
+  </div>
+</div>
+
+<!-- Cart drawer -->
+<aside class="drawer" id="drawer" aria-label="Shopping cart" hidden>
+  <div class="drawer-head">
+    <h3>Your cart</h3>
+    <button class="icon-btn" id="drawerClose" aria-label="Close cart">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <div class="drawer-body" id="cartItems"></div>
+  <div class="drawer-foot" id="cartFoot"></div>
+</aside>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
